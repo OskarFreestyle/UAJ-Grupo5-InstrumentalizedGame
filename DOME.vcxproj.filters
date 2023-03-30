@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils\Collisions.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="json\JSON.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\JSONValue.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\Manager.cpp">
+      <Filter>Source Files\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\physiognomy.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="sdlutils\SDLUtils.cpp">
+      <Filter>Source Files\sdlutils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Vector2D.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdlutils\SoundEffect.cpp">
+      <Filter>Source Files\sdlutils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdlutils\Texture.cpp">
+      <Filter>Source Files\sdlutils</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\game_state_machine.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\raid_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\game_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\shelter_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\enemy.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\player.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\weapon_behaviour.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\weapon.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\player_animation.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\enemy_behaviour_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\menu_button.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\menu_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\camera.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ray_cast.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\enemy_detection_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\interactions.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\loot.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\ricochet_weapon.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ricochet.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\charge_weapon.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\charge.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\hunger_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\tiredness_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\crafting_system.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\box_collider.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\pain_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\rigid_body.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\workshop.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\intoxication_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\enemy_attack_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\concussion_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bleedout_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\hypothermia_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\countdown.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\hud.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\classic_bullet.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\enemy_animation.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\locations_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\back_to_shelter.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\sleep_station.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\pause_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\open_station.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\pause_button.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\Entity.cpp">
+      <Filter>Source Files\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\lose_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\spaceship_station.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\shelter_hud.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\controls_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\lore_scene.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\weapon_animation.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\parallax_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\check_button.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\enemy_contact_damage.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\hold_to_skip.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\initial_camera_zoom.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\interactable_element.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\initial_scene.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\inventory_controller.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\keyboard_player_ctrl.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\text_with_background.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\transition_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\camera_shake.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\camera_movement.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\transform.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\inventory.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\dialogue.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\timer.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\item.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\player_save_data.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\scene_manager.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\inventory_dropdown.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\particle_system.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bloodloss_component.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Collisions.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\Component.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\ecs.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\Entity.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\Font.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\InputHandler.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="json\JSON.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\JSONValue.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\macros.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\Manager.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\mpl.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\Music.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\physiognomy.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\player_animation.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\RandomNumberGenerator.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\SDLUtils.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Singleton.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Vector2D.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\SoundEffect.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\Texture.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\VirtualTimer.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\game_state_machine.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\raid_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\game_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\shelter_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\enemy.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\player.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\weapon_behaviour.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\weapon.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\enemy_behaviour_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\menu_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\menu_button.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\camera.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ray_cast.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\enemy_detection_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\interactions.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ricochet.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\ricochet_weapon.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\charge_weapon.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\charge.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\hunger_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\loot.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\player_health_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\tiredness_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\crafting_system.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\box_collider.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\pain_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\rigid_body.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\workshop.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\intoxication_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\enemy_attack_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\concussion_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bleedout_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\hypothermia_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\checkML.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Game.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\constant_variables.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ecs_defs.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\countdown.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\hud.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\classic_bullet.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\enemy_animation.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\locations_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\back_to_shelter.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\sleep_station.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlutils\SoundManager.h">
+      <Filter>Header Files\sdlutils</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\pause_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\open_station.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\pause_button.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\lose_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\settings_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\spaceship_station.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\shelter_hud.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\controls_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\lore_scene.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\weapon_animation.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\parallax_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\check_button.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\game_object.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\enemy_contact_damage.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\player_save_data.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\scene_manager.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\camera_movement.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\camera_shake.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\hold_to_skip.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\initial_scene.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\initial_camera_zoom.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\keyboard_player_ctrl.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\inventory_controller.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\interactable_element.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\text_with_background.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\transition_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\particle_system.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\inventory_dropdown.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\transform.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\inventory.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\dialogue.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\image.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\timer.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\item.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bloodloss_component.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\wound_comparator.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{39cfaae8-e69f-47b8-86d5-89485957e3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a5b9fea4-1087-4ad9-8b13-86632e01c175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63d193a4-1c24-4392-b528-7efcf05e3477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{3b47c65d-1f3b-4028-9424-c532d50350d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{0a48cc24-ddfa-4221-99ca-8f4163843863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdlutils">
+      <UniqueIdentifier>{f38f0bf8-9d94-42ff-9680-48f847d5be6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{7b5b0537-21e9-4e45-9a2d-d7cae64f27a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{d9cb88f3-843a-47db-a98c-0c0f0f49938e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ecs">
+      <UniqueIdentifier>{c8b09ecb-518c-4304-9c55-dff98aad136e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{846a30e6-01b2-48af-9629-1c18574fa893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdlutils">
+      <UniqueIdentifier>{44e5ed1f-4be6-4324-baa0-87f73be6b50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{7c11e3cc-0beb-4059-a4e6-b5fec0bbabcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\classes">
+      <UniqueIdentifier>{04bfa732-f3bf-4b7a-b4f4-3bb54ad36228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes">
+      <UniqueIdentifier>{5b0dc240-7768-4601-9e2a-ba93ef120f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ecs">
+      <UniqueIdentifier>{ef680165-d348-4acf-bb73-b13438b688dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{a466ea0a-784b-45e6-8a08-041e846eb5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{4f169d5b-452d-457a-abfd-0a54f7199ddd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,84 @@
+# Guion
+
+1º PARTE
+--
+¿Como podrias escapar en un mundo postapocaliptico infestado de peligros?
+Esta idea es la que nosotros, Sureffect, os planteamos en nuestro juego, DOME.
+
+En él, controlamos a un habitante de una de las colonias del planeta Aurora, que intenta reparar el cohete que le permitira
+escapar del desastre que ha acaecido en su cupula, causado por la tecnologia de una raza alienígena que planea eliminar
+la colonia invasora.
+
+Así, DOME es un survival scroller 2D inspirado en juegos como Escape from Tarkov, This Was of Mine, y Fallout Shelter, en el que el
+jugador deberá moverse por toda la colonia en búsqueda de recursos y materiales para alimentarse, defenderse, y reparar la nave.
+
+El juego estará enfocado a un publico familiarizado con los videojuegos, aunque no sean necesariamente expertos del género. Además, ciertos elementos
+de diseño, como que exista permadeath, generan un desafio que apela más a un publico menos casual.
+
+Así, para poder reparar el cohete antes de que la cupula sea inhabitable, el jugador tendra que pasar por dos fases cada dia:
+
+En la primera fase, el jugador necesitara recolectar recursos para defenderse: armas, municion, proteccion, medicinas... También necesitara
+hacerse con comida y bebida para sobrevivir hasta que pueda abandonar la cupula. Para hacer esto el jugador podra escoger una localizacion
+para lootearla, teniendo un tiempo limitado para obtener recursos de ella. Si pasa mas tiempo en la zona del que tiene disponible, se hara de noche.
+Las noches son demasiado frías y causará al jugador un debufo/penalizacion de hipotermia. Si pasa demasiado tiempo en ese estado, morira y acabara la
+partida. Si por ejemplo el jugador tiene poca comida ira a una localizacion como es un supermercado. En cambio, si quiere conseguir mejor equipo para
+defenderse ira a un refugio militar.
+- Looteo
+- Combate
+- Criogenizacion
+
+--
+
+2º PARTE
+--
+Tras abandonar la localización a tiempo y sin morir congelado el jugador regresara a su refugio. En esta segunda fase dispondrá de cierta cantidad de tiempo que se consumirá al hacer distintas acciones, las cuales pueden requerir de distintos
+recursos. Algunos ejemplos de acciones son: craftear medicinas, balas, mejoras del arma, arreglar la nave...
+El jugador necesitara realizar de forma regular acciones como comer, beber, dormir o tratar heridas para sobrevivir. Por ejemplo, si al pasar el día no ha comido,
+recibirá una penalización que afectará negativamente a la próxima fase de looteo. Si no come durante 2 días seguidos morirá, causando el fin de la partida.
+
+El ciclo de juego se centra en la repetición de estas dos fases, mejorando el equipamiento para poder raidear localizaciones mas difíciles y
+consiguiendo los recursos necesarios para no morir, a la vez que se arregla la nave para poder escapar y completar el juego.
+Como equipamiento básico el jugador dispondrá de un arma equipada, una armadura y una granada. Además, para organizar sus items, tendrá un inventario
+cuadriculado en el que podrá colocar los objetos como si fuesen piezas de tetris.
+
+-ESTADOS:
+A la hora de sobrevivir, el jugador tendrá que tener en cuenta los distintos estados vitales los cuales están divididos
+en dos categorías: los generales y los de combate. En cuanto a los de combate, al no comer, no beber o sufrir
+heridas se llevarán a cabo penalizaciones generales que afectarán a la salud, la puntería o la capacidad del inventario como por ejemplo el hambre la sed o
+posibles infecciones.
+Al comienzo de cada día avanzaran estos estados dañinos no tratados, y si llegan a su fase final, mataran al jugador.
+También hay acciones que puede afectar de manera positiva a los estados como descansar en el refugio, curarte las heridas
+o comer.
+
+Por otro lado están los estados de combate. Estos no avanzan al comienzo de cada día, sino que son infligidos a lo largo de la raid e indican los
+daños del jugador. Algunos de estos son: herido, hemorragia, hueso roto... Se pueden curar en medio de la raid o en el refugio usando
+la medicina adecuada: vendas, kit de primeros auxilios...
+
+En el refugio, aparte de las zonas para descansar, se podrá comprobar el estado del personaje, usar el almacén de objetos, e ir la salida para hacer una raid.
+A parte existirá una estación médica que usara componentes médicos encontrados en la raid, y también una estación balística centrada en la mejora de armas
+y fabricación de munición.
+--
+
+3º PARTE
+--
+Los objetivos principales que debe alcanzar el jugador son sobrevivir día a día y encontrar los materiales y recursos necesarios para
+arreglar la nave y huir del planeta en el que reside. Para lograrlo el jugador deberá manejar de manera inteligente su tiempo del día para
+centrarse en distintos fines, encontrar objetos, comida, partes, étc. y a su vez, enfrentarse a los enemigos de las distintas zonas cubriéndose
+de sus disparos o atacándolos antes de que se acerquen a él.
+
+El juego principalmente se centrará en edificios y zonas cerradas propias de la ciencia ficción con un toque post-apocalíptico, el jugador
+sólo podrá ver con claridad lo que hay dentro de su rango de visión y en la sala en la que se encuentra.
+El juego tendra estetica pixel art, con colores oscuros para representar la situacion caotica en la que transcurre el juego
+(extenderla un poco)
+
+
+Nos hemos apoyado de Discord para nuestras reuniones de grupo, que a partir de este momento serán dos veces por semana.
+Para dividirnos el trabajo usamos Pivotal Tracker, como siempre, pero dado el tamaño del grupo también hemos asignado roles
+de organización a algunos miembros.
+
+Para el hito 1 tendremos funcionando los dos sistemas principales de la raid y el refugio. A partir de aquí podremos comenzar a
+implementar el contenido del juego, la mayor parte de la cual estará hecha para el hito 2. A partir de aquí, quedaría pulir el juego,
+terminar y expandir los sistemas implementados y hacer un QA más extensivo para la entrega final en el tercer hito.
+
+--
+Turno de Yojhan Steven García Peña Parte Final Prototipo
