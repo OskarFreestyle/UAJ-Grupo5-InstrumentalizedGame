@@ -6,12 +6,17 @@
 #include "./utils/checkML.h"
 #include "./game/Game.h"
 
+#include "Tracker.h"
 
 void start() {
-	Game g(8000);
+	Tracker::GetInstance().Init();
 
+	Game g(8000);
 	g.init();
 	g.start();
+
+	Tracker::GetInstance().End();
+	std::system("pause");
 }
 
 int main(int, char**) {
