@@ -11,6 +11,7 @@
 void start() {
 
 	auto t = Tracker::Instance();
+	t->InitObjects();
 
 	Game g(8000);
 	g.init();
