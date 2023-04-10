@@ -9,14 +9,14 @@
 #include "Tracker.h"
 
 void start() {
-	Tracker::GetInstance().Init();
+
+	auto t = Tracker::Instance();
 
 	Game g(8000);
 	g.init();
 	g.start();
 
-	Tracker::GetInstance().End();
-	std::system("pause");
+	t->End();
 }
 
 int main(int, char**) {
