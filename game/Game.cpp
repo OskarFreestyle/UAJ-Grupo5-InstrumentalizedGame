@@ -33,6 +33,8 @@
 #include "../classes/physiognomy.h"
 #include "../sdlutils/InputHandler.h"
 
+#include "Tracker.h"
+
 using namespace std;
 
 Game::Game(int totaltime) {
@@ -63,6 +65,12 @@ void Game::init() {
 
 	SDLUtils::init("DOME", consts::WINDOW_WIDTH, consts::WINDOW_HEIGHT, "./resources/config/resources.json");
 	sdlutils().hideCursor();
+
+
+	// SESSION START EVENT
+	auto e = Tracker::Instance()->createSessionStartEvent();
+	Tracker::Instance()->trackEvent(e);
+
 
 	//sdlutils().toggleFullScreen();
 	

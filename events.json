@@ -1,0 +1,54 @@
+{
+
+  "data": [
+    {
+      "name": "SESSION_STARTED",
+      "active": true,
+      "index": 0
+    },
+
+    {
+      "name": "SESSION_ENDED",
+      "active": true,
+      "index": 1
+    },
+
+    {
+      "name": "RETURNED_TO_BASE",
+      "active": true,
+      "index": 2
+    },
+
+    {
+      "name": "FOOD_ITEM_CRAFTED",
+      "active": true,
+      "index": 3
+    },
+
+    {
+      "name": "SHIP_ITEM_CRAFTED",
+      "active": true,
+      "index": 4
+    },
+
+    {
+      "name": "ACTION_USED",
+      "active": true,
+      "index": 5
+    },
+
+    {
+      "name": "RAID_SELECTED",
+      "active": true,
+      "index": 6
+    },
+
+    {
+      "name": "ITEM_CONSUMED",
+      "active": true,
+      "index": 7
+    }
+
+  ]
+
+}
