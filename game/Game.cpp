@@ -121,6 +121,14 @@ void Game::start() {
 	}
 }
 
+void Game::close() {
+
+	// SESSION START EVENT
+	auto e = Tracker::Instance()->createSessionEndEvent();
+	Tracker::Instance()->trackEvent(e);
+
+}
+
 void Game::drawFPS(int fps) {
 	if (fpsActive && shouldRenderFps) {
 		std::stringstream ss;

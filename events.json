@@ -38,15 +38,21 @@
     },
 
     {
-      "name": "RAID_SELECTED",
+      "name": "ENTER_RAID_MENU",
       "active": true,
       "index": 6
     },
 
     {
-      "name": "ITEM_CONSUMED",
+      "name": "RAID_SELECTED",
       "active": true,
       "index": 7
+    },
+
+    {
+      "name": "ITEM_CONSUMED",
+      "active": true,
+      "index": 8
     }
 
   ]
