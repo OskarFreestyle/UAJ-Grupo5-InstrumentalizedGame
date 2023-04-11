@@ -10,14 +10,14 @@
 
 void start() {
 
-	auto t = Tracker::Instance();
-	//t->InitObjects();
+	Tracker::Instance();
 
 	Game g(8000);
 	g.init();
 	g.start();
+	g.close();
 
-	t->End();
+	Tracker::End();
 }
 
 int main(int, char**) {
