@@ -53,7 +53,14 @@
       "name": "ITEM_CONSUMED",
       "active": true,
       "index": 8
+    },
+    
+    {
+      "name": "POSITION",
+      "active": true,
+      "index": 9
     }
+
 
   ]
 
