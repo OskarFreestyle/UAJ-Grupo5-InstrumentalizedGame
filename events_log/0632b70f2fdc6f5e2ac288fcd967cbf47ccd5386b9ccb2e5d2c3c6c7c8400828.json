@@ -1,0 +1,10 @@
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "0632b70f2fdc6f5e2ac288fcd967cbf47ccd5386b9ccb2e5d2c3c6c7c8400828",
+  "TimeSinceStart": 2.0
+}
+{
+  "EventType": "SESSION_ENDED",
+  "SessionId": "0632b70f2fdc6f5e2ac288fcd967cbf47ccd5386b9ccb2e5d2c3c6c7c8400828",
+  "TimeSinceStart": 26.0
+}
