@@ -6,6 +6,8 @@
 #include "../classes/physiognomy.h"
 #include "../sdlutils/SoundManager.h"
 
+#include "Tracker.h"
+
 KeyboardPlayerCtrl::KeyboardPlayerCtrl() {
 	maxSpeed = consts::PLAYER_SPEED;
 	jumpSpeed = consts::JUMP_SPEED;
@@ -18,7 +20,12 @@ KeyboardPlayerCtrl::KeyboardPlayerCtrl() {
 
 	speed = 0;
 	left = xClicked = onLadder = onLadderTrigger = right = crouched = up = down = spaceDown = false;
-};
+}
+KeyboardPlayerCtrl::~KeyboardPlayerCtrl()
+{
+	Tracker::Instance()->RemoveRecurringEvent(trackerEvent);
+}
+
 
 void KeyboardPlayerCtrl::init() {
 	rb_ = entity_->getComponent<RigidBody>();
@@ -33,6 +40,14 @@ void KeyboardPlayerCtrl::init() {
 
 	a->setAlpha(240);
 	entity_->getMngr()->addRenderLayer<Dark>(ent);
+
+
+	std::function<TrackerEvent*()> trackPosition = [&]() {
+
+		return Tracker::createPositionEvent()->setPosition(tr_->getPos().getX(), tr_->getPos().getY())->setEntity("player");
+	};
+
+	trackerEvent = Tracker::Instance()->AddRecurringEvent(trackPosition);
 }
 
 void KeyboardPlayerCtrl::OnCollision(Entity* bc) {
