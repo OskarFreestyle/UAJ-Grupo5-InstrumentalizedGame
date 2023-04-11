@@ -41,6 +41,7 @@ public:
 	virtual ~Game();
 	void init();
 	void start();
+	void close();
 	inline GameStateMachine* getStateMachine() { return states; }
 	void quitGame() { exit = true; }
 
