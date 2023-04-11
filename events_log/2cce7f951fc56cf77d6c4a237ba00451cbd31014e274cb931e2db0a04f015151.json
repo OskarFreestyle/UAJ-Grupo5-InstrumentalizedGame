@@ -1,0 +1,90 @@
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 1.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 12.0,
+  "entity": "player",
+  "x": 778.0,
+  "y": 778.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 15.0,
+  "entity": "player",
+  "x": 1303.5,
+  "y": 1303.5
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 18.0,
+  "entity": "player",
+  "x": 1846.5,
+  "y": 1846.5
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 21.0,
+  "entity": "player",
+  "x": 1723.2672119140625,
+  "y": 1723.2672119140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 24.0,
+  "entity": "player",
+  "x": 1312.033203125,
+  "y": 1312.033203125
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 27.0,
+  "entity": "player",
+  "x": 1472.7161865234375,
+  "y": 1472.7161865234375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 30.0,
+  "entity": "player",
+  "x": 1407.9661865234375,
+  "y": 1407.9661865234375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 33.0,
+  "entity": "player",
+  "x": 997.21630859375,
+  "y": 997.21630859375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 36.0,
+  "entity": "player",
+  "x": 1088.0,
+  "y": 1088.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 39.0,
+  "entity": "player",
+  "x": 1002.5,
+  "y": 1002.5
+}
+{
+  "EventType": "SESSION_ENDED",
+  "SessionId": "2cce7f951fc56cf77d6c4a237ba00451cbd31014e274cb931e2db0a04f015151",
+  "TimeSinceStart": 44.0
+}

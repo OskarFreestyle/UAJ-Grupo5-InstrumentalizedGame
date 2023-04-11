@@ -1,0 +1,37 @@
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "d97503d8e83d6933468f07dd0a717ebd64e976866adf9b6a48582d25506510c8",
+  "TimeSinceStart": 2.0
+}
+{
+  "EventType": "",
+  "SessionId": "d97503d8e83d6933468f07dd0a717ebd64e976866adf9b6a48582d25506510c8",
+  "TimeSinceStart": 12.0,
+  "entity": "player",
+  "x": 1600.0,
+  "y": 1600.0
+}
+{
+  "EventType": "",
+  "SessionId": "d97503d8e83d6933468f07dd0a717ebd64e976866adf9b6a48582d25506510c8",
+  "TimeSinceStart": 15.0,
+  "entity": "player",
+  "x": 1600.0,
+  "y": 1600.0
+}
+{
+  "EventType": "",
+  "SessionId": "d97503d8e83d6933468f07dd0a717ebd64e976866adf9b6a48582d25506510c8",
+  "TimeSinceStart": 18.0,
+  "entity": "player",
+  "x": 1600.0,
+  "y": 1600.0
+}
+{
+  "EventType": "",
+  "SessionId": "d97503d8e83d6933468f07dd0a717ebd64e976866adf9b6a48582d25506510c8",
+  "TimeSinceStart": 21.0,
+  "entity": "player",
+  "x": 1600.0,
+  "y": 1600.0
+}
