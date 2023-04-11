@@ -114,6 +114,9 @@ void Game::start() {
 		drawFPS(currentFPS);
 		renderCursor();
 		sdlutils().presentRenderer();
+
+		Tracker::Update(consts::DELTA_TIME);
+
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;
 
 		if (frameTime < 1000 / consts::FRAME_RATE)

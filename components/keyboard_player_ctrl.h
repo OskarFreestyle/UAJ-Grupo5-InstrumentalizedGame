@@ -11,12 +11,15 @@
 #include "rigid_body.h"
 #include "transform.h"
 
+class RecurringEvent;
 class KeyboardPlayerCtrl : public Component {
 private:
 	RigidBody* rb_;
 	Transform* tr_;
 
 	Transform* darkArea;
+
+	RecurringEvent* trackerEvent;
 
 	float speed;
 	float maxSpeed;
@@ -35,6 +38,7 @@ private:
 
 public:
 	KeyboardPlayerCtrl();
+	virtual ~KeyboardPlayerCtrl();
 
 	virtual void init();
 
