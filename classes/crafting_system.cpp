@@ -41,32 +41,8 @@ CraftingSystem::~CraftingSystem()
 }
 
 bool CraftingSystem::CraftItem(ITEMS item, int x, int y, Workshop* ws, bool openLoot) {
-	itemsToDelete.clear();
 
-	//Vector de los items que se necesitan para craftear el objeto elegido. Realizo una copia para no modificar su cantidad
-	vector<ItemInfo> itemsNeeded;
-	for (ItemInfo* i : (*crafts.find(item)).second) {
-		itemsNeeded.push_back(*i);
-	}
-
-	//Lista de los items del inventario
-	list<Item*> itemsList = playerInventory->getItems();
-
-
-	for (Item* invItem : itemsList) {
-		ITEMS nameToFind = invItem->getItemInfo()->name(); //nombre de cada objeto del inventario
-
-		for (int i = 0; i < itemsNeeded.size(); ++i) {
-			if (nameToFind == itemsNeeded[i].name()) { //Si coinciden los nombres restamos 1 a la cantidad necesaria de ese item
-				itemsNeeded[i].setAmount(itemsNeeded[i].getAmount() - 1);
-				itemsToDelete.push_back(invItem);
-				if (itemsNeeded[i].getAmount() <= 0)itemsNeeded.erase(itemsNeeded.begin() + i); //si la cantidad llega a 0 lo metemos al vector de items a eliminar una vez se ccraftee el objeto
-			}
-		}
-
-	}
-
-	if (itemsNeeded.size() == 0) {
+	if (isItemCrafteable(item)) {
 
 		for (Item* i : itemsToDelete) {
 			ItemInfo* info = getItemInfo(i->getItemInfo()->name());
@@ -103,12 +79,6 @@ void CraftingSystem::restoreCraft() {
 	}
 	itemsToRestore.clear();
 }
-
-//enum ITEMS {
-//	BANDAGE, MEDICAL_COMPONENTS, WATER, ORGANIC_MATERIAL, MECANICAL_COMPONENTS, ANTIDOTE, FOOD, SPLINT, SPACESHIP_ROCKETS, SPACESHIP_KEY_ITEMS,
-//	BUILDING_PARTS, ELECTRONIC_REMAINS, METAL_PLATES, WEAPON_UPGRADE, UPGRADE_KIT, CLASSIC_AMMO, RICOCHET_AMMO, LASER_AMMO, SPACESHIP_RADAR, SPACESHIP_CABIN
-//	, PAINKILLER
-//};
 
 ItemInfo* CraftingSystem::getItemInfo(ITEMS item, int amount) {
 	ItemInfo* aux;
@@ -263,6 +233,36 @@ ItemInfo* CraftingSystem::getItemInfo(ITEMS item, int amount) {
 		break;
 	}
 	}
+}
+
+bool CraftingSystem::isItemCrafteable(ITEMS item)
+{
+	itemsToDelete.clear();
+
+	//Vector de los items que se necesitan para craftear el objeto elegido. Realizo una copia para no modificar su cantidad
+	vector<ItemInfo> itemsNeeded;
+	for (ItemInfo* i : (*crafts.find(item)).second) {
+		itemsNeeded.push_back(*i);
+	}
+
+	//Lista de los items del inventario
+	list<Item*> itemsList = playerInventory->getItems();
+
+
+	for (Item* invItem : itemsList) {
+		ITEMS nameToFind = invItem->getItemInfo()->name(); //nombre de cada objeto del inventario
+
+		for (int i = 0; i < itemsNeeded.size(); ++i) {
+			if (nameToFind == itemsNeeded[i].name()) { //Si coinciden los nombres restamos 1 a la cantidad necesaria de ese item
+				itemsNeeded[i].setAmount(itemsNeeded[i].getAmount() - 1);
+				itemsToDelete.push_back(invItem);
+				if (itemsNeeded[i].getAmount() <= 0) itemsNeeded.erase(itemsNeeded.begin() + i);
+			}
+
+		}
+	}
+	
+	return itemsNeeded.size() == 0;
 }
 
 Crafts* CraftingSystem::getCrafts() { return &crafts; }
