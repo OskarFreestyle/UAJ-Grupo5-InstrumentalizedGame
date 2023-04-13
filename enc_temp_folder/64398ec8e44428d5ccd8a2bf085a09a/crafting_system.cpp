@@ -4,7 +4,6 @@
 
 CraftingSystem::CraftingSystem(Manager* mngr) {
 	playerInventory = mngr->getHandler<Player_hdlr>()->getComponent<InventoryController>()->inventory;
-	mngr->getHandler<Player_hdlr>()->getComponent<InventoryController>()->setCraftingSystem(this);
 
 	//CAMBIAR A ENUM
 	crafts.emplace(BANDAGE, std::vector<ItemInfo* >{ getItemInfo(WATER, 1), getItemInfo(ORGANIC_MATERIAL, 1)});

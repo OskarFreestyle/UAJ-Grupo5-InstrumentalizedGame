@@ -7,8 +7,6 @@
 #include "../components/hunger_component.h"
 #include "../classes/shelter_scene.h"
 #include "../sdlutils/SoundManager.h"
-#include "../classes/crafting_system.h"
-#include "../components/inventory_controller.h"
 #include "Tracker.h"
 
 SleepStation::SleepStation(Manager* realMngr_, Manager* mngr_, ShelterScene* shelterScene_) : Entity(realMngr_) {
@@ -128,14 +126,14 @@ void SleepStation::goToSleep(int hours, int numberOfActions)
 	e->setFatigue((int) tiredness->getTirednessLevel())->setDay(currentDay)->setSleepOption(numberOfActions);
 	Tracker::Instance()->trackEvent(e);
 
+	 
+	 
 	// FOOD_ITEM_CRAFTED
+
 	auto a = Tracker::Instance()->createFoodItemCraftedEvent();
 	HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
-	CraftingSystem* craftingSystem = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->getCraftingSystem();
-	bool isFoodCrafteable = craftingSystem->isItemCrafteable(FOOD);
-
-	a->setDay(currentDay)->setHunger((int) hunger->getHungerLevel())->setCraft(isFoodCrafteable);
-	Tracker::Instance()->trackEvent(a);
+	a->setDay(currentDay)->setHunger(hunger->getHunger());
+	Tracker::Instance()->trackEvent(e);
 
 
 	mngr_->getGame()->numDays++;

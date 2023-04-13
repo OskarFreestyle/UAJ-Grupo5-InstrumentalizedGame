@@ -14,8 +14,6 @@
 #include "../utils/checkML.h"
 #include "../classes/weapon_behaviour.h"
 
-class CraftingSystem;
-
 class InventoryController : public Component
 {
 private:
@@ -26,7 +24,6 @@ protected:
 	Entity* inventoryPanel = nullptr;
 	KeyboardPlayerCtrl* playerMovement = nullptr;
 	WeaponBehaviour* playerWeapon = nullptr;
-	CraftingSystem* craftingSystem;
 
 public:
 	InventoryController();
@@ -36,11 +33,10 @@ public:
 	void init() override;
 	void Use();
 
-	void setCraftingSystem(CraftingSystem* cs);
-
 	bool isInvOpen() { return isOpen; };
 
 	void OpenLoot(bool state);
+
 
 	Inventory* inventory;
 };
