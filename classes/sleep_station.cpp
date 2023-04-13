@@ -4,8 +4,10 @@
 #include "../classes/physiognomy.h"
 #include "../classes/player.h"
 #include "../components/tiredness_component.h"
+#include "../components/hunger_component.h"
 #include "../classes/shelter_scene.h"
 #include "../sdlutils/SoundManager.h"
+#include "Tracker.h"
 
 SleepStation::SleepStation(Manager* realMngr_, Manager* mngr_, ShelterScene* shelterScene_) : Entity(realMngr_) {
 	realMngr_->addEntity(this);
@@ -116,6 +118,24 @@ void SleepStation::update() {
 
 void SleepStation::goToSleep(int hours, int numberOfActions)
 {
+
+	int currentDay = mngr_->getGame()->numDays;
+	// LEAVE_BASE_EVENT
+	auto e = Tracker::Instance()->createLeaveBaseEvent();
+	TirednessComponent* tiredness = mngr_->getHandler<Player_hdlr>()->getComponent<TirednessComponent>();
+	e->setFatigue((int) tiredness->getTirednessLevel())->setDay(currentDay)->setSleepOption(numberOfActions);
+	Tracker::Instance()->trackEvent(e);
+
+	 
+	 
+	// FOOD_ITEM_CRAFTED
+
+	auto a = Tracker::Instance()->createFoodItemCraftedEvent();
+	HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
+	a->setDay(currentDay)->setHunger(hunger->getHunger());
+	Tracker::Instance()->trackEvent(e);
+
+
 	mngr_->getGame()->numDays++;
 	if(mngr_->getGame()->numDays > consts::MAX_DAYS)
 		mngr_->ChangeScene(new LoseScene(mngr_->getGame(), WAYSTODIE::DAYS), SceneManager::SceneMode::ADDITIVE);

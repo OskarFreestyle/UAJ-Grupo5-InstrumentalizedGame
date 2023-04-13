@@ -1,0 +1,1456 @@
+[
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 1.0
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 15.0,
+  "entity": "player",
+  "x": 1894.3299560546875,
+  "y": 1894.3299560546875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 26.0,
+  "entity": "player",
+  "x": 1151.5,
+  "y": 1151.5
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 31.0,
+  "entity": "player",
+  "x": 1226.634033203125,
+  "y": 1226.634033203125
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 34.0,
+  "entity": "player",
+  "x": 1664.0,
+  "y": 1664.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 37.0,
+  "entity": "player",
+  "x": 1726.6336669921875,
+  "y": 1726.6336669921875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 40.0,
+  "entity": "player",
+  "x": 1984.0,
+  "y": 1984.0
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 43.0,
+  "entity": "player",
+  "x": 1984.0,
+  "y": 1984.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 46.0,
+  "entity": "player",
+  "x": 1724.8145751953125,
+  "y": 1724.8145751953125
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 49.0,
+  "entity": "player",
+  "x": 1519.2464599609375,
+  "y": 1519.2464599609375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 52.0,
+  "entity": "player",
+  "x": 1318.5445556640625,
+  "y": 1318.5445556640625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 55.0,
+  "entity": "player",
+  "x": 1599.5804443359375,
+  "y": 1599.5804443359375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 58.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 61.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 64.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 67.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 70.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 73.0,
+  "entity": "player",
+  "x": 1797.88232421875,
+  "y": 1797.88232421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 76.0,
+  "entity": "player",
+  "x": 1978.8162841796875,
+  "y": 1978.8162841796875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 79.0,
+  "entity": "player",
+  "x": 1544.411865234375,
+  "y": 1544.411865234375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 82.0,
+  "entity": "player",
+  "x": 1110.0074462890625,
+  "y": 1110.0074462890625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 85.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 88.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 91.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 94.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 97.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 100.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 103.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 106.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 109.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 112.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 115.0,
+  "entity": "player",
+  "x": 1016.406494140625,
+  "y": 1016.406494140625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 118.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 121.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 124.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 127.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 130.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 133.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 136.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 139.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 142.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 145.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 148.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 151.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 154.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 157.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 160.0,
+  "entity": "player",
+  "x": 980.306396484375,
+  "y": 980.306396484375
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 163.0,
+  "entity": "player",
+  "x": 1040.5399169921875,
+  "y": 1040.5399169921875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 166.0,
+  "entity": "player",
+  "x": 1474.9443359375,
+  "y": 1474.9443359375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 169.0,
+  "entity": "player",
+  "x": 1669.5,
+  "y": 1669.5
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 172.0,
+  "entity": "player",
+  "x": 1909.0355224609375,
+  "y": 1909.0355224609375
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 175.0,
+  "entity": "player",
+  "x": 1979.4166259765625,
+  "y": 1979.4166259765625
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 178.0,
+  "entity": "player",
+  "x": 1983.75,
+  "y": 1983.75
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 181.0,
+  "entity": "player",
+  "x": 1984.0,
+  "y": 1984.0
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 184.0,
+  "entity": "player",
+  "x": 1882.9659423828125,
+  "y": 1882.9659423828125
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 188.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 191.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 194.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 197.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 200.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 203.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 206.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 209.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 212.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 215.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 218.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 221.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 224.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 227.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 230.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 233.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 236.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 239.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 242.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 245.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 248.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 251.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 254.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 257.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 260.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 263.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 266.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 269.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 272.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 275.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 278.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 281.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 284.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 287.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 290.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 293.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 296.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 299.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 302.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 305.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 308.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 311.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 314.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 317.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 320.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 323.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 326.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 329.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 332.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 335.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 338.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 341.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 344.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 347.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 350.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 353.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 356.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 359.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 362.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 366.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 369.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 372.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 375.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 378.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 381.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 384.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 387.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 390.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 393.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 396.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 399.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 402.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 405.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 408.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 411.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 414.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 417.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 420.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 423.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 426.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 429.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 432.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 435.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 438.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 441.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 444.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 447.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 450.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 453.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 456.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 459.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 462.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 465.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 468.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 471.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 474.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 477.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 480.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 483.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 486.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 489.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 492.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 495.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 498.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 501.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 504.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 507.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 510.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 513.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 516.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 519.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+][
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 522.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 525.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+{
+  "EventType": "POSITION",
+  "SessionId": "6ec759463929cf81b5c5bae7a1d1364819f3d81ed815491a6a0abe6db28683f0",
+  "TimeSinceStart": 528.0,
+  "entity": "player",
+  "x": 1858.9656982421875,
+  "y": 1858.9656982421875
+}
+
+]
