@@ -59,15 +59,15 @@ namespace consts {
 
 	// WEAPONS
 	const int WEAPON_FIRERATES[] = { 1.5f, 1.0f, 0.75f, 1.75f, 1.65f, 1.55f, 1.25f, 1.25f, 1.25f };
-	const int WEAPON_DAMAGE_VALUES[] = { 30, 30, 30, 70, 90, 110, 90, 130, 170 };
+	const int WEAPON_DAMAGE_VALUES[] = { 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000 };
 	const int WEAPON_MAGAZINE_SIZES[] = { 12, 21, 35, 6, 7, 8, 5, 5, 5 };
 
 	const float CHARGEWEAPON_HEIGHT = 15;
 
 	// Enemy Lives
-	const int ENEMY_HP_DEFAULT = 100;
-	const int ENEMY_HP_FLYING = 100;
-	const int ENEMY_HP_RANGED = 100;
+	const int ENEMY_HP_DEFAULT = 1;
+	const int ENEMY_HP_FLYING = 1;
+	const int ENEMY_HP_RANGED = 1;
 
 	// LOCALIZACIONES
 	const int NUM_LOCATIONS = 5;

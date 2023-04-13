@@ -37,6 +37,7 @@ public:
 	void Use();
 
 	void setCraftingSystem(CraftingSystem* cs);
+	CraftingSystem* getCraftingSystem();
 
 	bool isInvOpen() { return isOpen; };
 
