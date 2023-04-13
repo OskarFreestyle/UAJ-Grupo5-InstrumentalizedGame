@@ -1,7 +1,7 @@
 #include "inventory_controller.h"
 #include <iostream>
 #include "../classes/player.h"
-#include "../classes/crafting_system.h"
+
 
 InventoryController::InventoryController() {
 	isOpen = true;
@@ -51,16 +51,6 @@ void InventoryController::Use() {
 	playerMovement->enabled = !isOpen;
 	playerMovement->resetSpeed();
 	playerWeapon->getCurrentWeapon()->enabled = !isOpen;
-}
-
-void InventoryController::setCraftingSystem(CraftingSystem* cs)
-{
-	craftingSystem = cs;
-}
-
-CraftingSystem* InventoryController::getCraftingSystem()
-{
-	return craftingSystem;
 }
 
 void InventoryController::update() {
