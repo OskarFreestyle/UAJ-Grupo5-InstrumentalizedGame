@@ -123,19 +123,19 @@ void SleepStation::goToSleep(int hours, int numberOfActions)
 
 	int currentDay = mngr_->getGame()->numDays;
 	// LEAVE_BASE_EVENT
-	auto e = Tracker::Instance()->createLeaveBaseEvent();
+	auto e1 = Tracker::Instance()->createLeaveBaseEvent();
 	TirednessComponent* tiredness = mngr_->getHandler<Player_hdlr>()->getComponent<TirednessComponent>();
-	e->setFatigue((int) tiredness->getTirednessLevel())->setDay(currentDay)->setSleepOption(numberOfActions);
-	Tracker::Instance()->trackEvent(e);
+	e1->setFatigue((int) tiredness->getTirednessLevel())->setDay(currentDay)->setSleepOption(numberOfActions);
+	Tracker::Instance()->trackEvent(e1);
 
 	// FOOD_ITEM_CRAFTED
-	auto a = Tracker::Instance()->createFoodItemCraftedEvent();
+	auto e2 = Tracker::Instance()->createFoodItemCraftedEvent();
 	HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
 	CraftingSystem* craftingSystem = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->getCraftingSystem();
 	bool isFoodCrafteable = craftingSystem->isItemCrafteable(FOOD);
 
-	a->setDay(currentDay)->setHunger((int) hunger->getHungerLevel())->setCraft(isFoodCrafteable);
-	Tracker::Instance()->trackEvent(a);
+	e2->setDay(currentDay)->setHunger((int) hunger->getHungerLevel())->setCraft(isFoodCrafteable);
+	Tracker::Instance()->trackEvent(e2);
 
 
 	mngr_->getGame()->numDays++;

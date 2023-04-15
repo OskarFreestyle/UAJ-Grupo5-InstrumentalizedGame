@@ -3,6 +3,7 @@
 #include "../classes/physiognomy.h"
 #include "../components/hunger_component.h"
 #include "../sdlutils/SoundManager.h"
+#include "Tracker.h"
 
 ItemInfo::ItemInfo(ITEMS name, string strName, string description, int width, int height, int row, int col, int craftAmount) :
 	_name(name), _strName(strName), _description(description), _width(width), _height(height), _row(row), _col(col), _craftAmount(craftAmount) {
@@ -25,6 +26,18 @@ ItemInfo::ItemInfo(ItemInfo* item) {
 }
 
 ItemInfo::~ItemInfo() {}
+
+inline bool ItemInfo::execute(Entity* player)
+{
+	int currentDay = player->getMngr()->getGame()->numDays;
+
+	// ITEM CONSUMED EVENT
+	auto e = Tracker::Instance()->createItemConsumedEvent();
+	e->setDay(currentDay);
+	Tracker::Instance()->trackEvent(e);
+
+	return function(player);
+}
 
 ItemInfo* ItemInfo::antidote()
 {
