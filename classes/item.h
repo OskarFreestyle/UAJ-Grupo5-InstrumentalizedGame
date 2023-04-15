@@ -75,7 +75,7 @@ public:
 	inline int row() { return _row; }
 	inline int col() { return _col; }
 	std::function<void(Entity*)> getFunc() { return function; };
-	inline bool execute(Entity* player);
+	bool execute(Entity* player);
 	inline bool hasFunction() { return functionCreated; }
 };
 

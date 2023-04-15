@@ -106,6 +106,7 @@ public:
 	template<typename T>
 	inline bool hasComponent() {
 		auto id = ecs::cmpIdx<T>;
+
 		return cmpArray_[id] != nullptr;
 	}
 
