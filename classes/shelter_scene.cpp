@@ -14,6 +14,7 @@
 #include <memory>
 
 #include "../classes/player.h"
+#include "Tracker.h"
 
 using std::cout;
 using std::cerr;
@@ -106,6 +107,12 @@ void ShelterScene::sleepTransition()
 
 void ShelterScene::useActions(int numActions)
 {
+	int currentDay = mngr_->getGame()->numDays;
+	// ACTION USED EVENT
+	auto e = Tracker::Instance()->createActionUsedEvent();
+	e->setDay(currentDay)->setActions(numActions);
+	Tracker::Instance()->trackEvent(e);
+
 	if (actions - numActions >= 0) actions -= numActions;
 }
 

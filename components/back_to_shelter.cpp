@@ -34,7 +34,7 @@ void BackToShelter::Interact() {
 	if (mngr->getGame()->cabin) crafted_count++;
 	if (mngr->getGame()->radar) crafted_count++;
 
-	// LEAVE_BASE_EVENT
+	// SHIP ITEM CRAFTED EVENT
 	int currentDay = mngr->getGame()->numDays;
 	auto e = Tracker::Instance()->createShipItemCraftedEvent();
 

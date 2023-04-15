@@ -126,7 +126,7 @@ void Game::start() {
 
 void Game::close() {
 
-	// SESSION START EVENT
+	// SESSION END EVENT
 	auto e = Tracker::Instance()->createSessionEndEvent();
 	Tracker::Instance()->trackEvent(e);
 

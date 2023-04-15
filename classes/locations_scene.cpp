@@ -15,6 +15,9 @@
 
 #include "../classes/raid_scene.h"
 #include "../classes/camera.h"
+#include "../components/hunger_component.h"
+#include "../components/inventory.h"
+#include "Tracker.h"
 
 void LocationsScene::init()
 {
@@ -50,7 +53,13 @@ void LocationsScene::init()
 
 void LocationsScene::onLoad()
 {
-	name = "Day " + std::to_string(getGame()->numDays) + " out of " + std::to_string(consts::MAX_DAYS);
+	int currentDay = mngr_->getGame()->numDays;
+	// ENTER RAID MENU EVENT
+	auto e = Tracker::Instance()->createEnterRaidMenuEvent();
+	e->setDay(currentDay);
+	Tracker::Instance()->trackEvent(e);
+
+	name = "Day " + std::to_string(currentDay) + " out of " + std::to_string(consts::MAX_DAYS);
 	createTransition(3.5);
 }
 
@@ -101,6 +110,23 @@ void LocationsScene::changeToRaid(Game* g, int index) {
 	g->currentScene = (SCENES)index;
 	g->setShouldRenderFPS(true);
 	soundManager().playSFX("push_button");
+
+	int currentDay = mngr_->getGame()->numDays;
+	// RAID SELECT EVENT
+	auto e = Tracker::Instance()->createRaidSelectedEvent();
+	HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
+	Inventory* playerInventory = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->inventory;
+	std::list<Item*>& items = playerInventory->getItems();
+
+	std::list<int> itemsIndexInEnum;
+
+	for (auto it = items.begin(); it != items.end(); it++) {
+		itemsIndexInEnum.push_back((int)(*it)->getItemInfo()->name());
+	}
+
+	e->setDay(currentDay)->setHunger((int) hunger->getHungerLevel())->setItems(itemsIndexInEnum)->setLocation(index);
+	Tracker::Instance()->trackEvent(e);
+
 	mngr_->ChangeScene(new RaidScene(paths[index], names[index], g), SceneManager::SceneMode::ADDITIVE);
 }
 
