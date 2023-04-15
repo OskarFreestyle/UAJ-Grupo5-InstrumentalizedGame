@@ -112,19 +112,25 @@ void LocationsScene::changeToRaid(Game* g, int index) {
 	soundManager().playSFX("push_button");
 
 	int currentDay = mngr_->getGame()->numDays;
-	// RAID SELECT EVENT
 	auto e = Tracker::Instance()->createRaidSelectedEvent();
-	HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
-	Inventory* playerInventory = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->inventory;
-	std::list<Item*>& items = playerInventory->getItems();
+
+	int hungerLevel = 0;
 
 	std::list<int> itemsIndexInEnum;
 
-	for (auto it = items.begin(); it != items.end(); it++) {
-		itemsIndexInEnum.push_back((int)(*it)->getItemInfo()->name());
+	if (currentDay > 1) {
+		// RAID SELECT EVENT
+		HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
+		hungerLevel = (int)hunger->getHungerLevel();
+		Inventory* playerInventory = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->inventory;
+		std::list<Item*>& items = playerInventory->getItems();
+
+		for (auto it = items.begin(); it != items.end(); it++) {
+			itemsIndexInEnum.push_back((int)(*it)->getItemInfo()->name());
+		}
 	}
 
-	e->setDay(currentDay)->setHunger((int) hunger->getHungerLevel())->setItems(itemsIndexInEnum)->setLocation(index);
+	e->setDay(currentDay)->setHunger(hungerLevel)->setItems(itemsIndexInEnum)->setLocation(index);
 	Tracker::Instance()->trackEvent(e);
 
 	mngr_->ChangeScene(new RaidScene(paths[index], names[index], g), SceneManager::SceneMode::ADDITIVE);

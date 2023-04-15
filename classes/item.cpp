@@ -27,7 +27,7 @@ ItemInfo::ItemInfo(ItemInfo* item) {
 
 ItemInfo::~ItemInfo() {}
 
-inline bool ItemInfo::execute(Entity* player)
+bool ItemInfo::execute(Entity* player)
 {
 	int currentDay = player->getMngr()->getGame()->numDays;
 
