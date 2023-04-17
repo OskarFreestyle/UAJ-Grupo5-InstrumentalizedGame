@@ -20,28 +20,9 @@ void BackToShelter::Interact() {
 	p->getPhysiognomy()->removeAllStates();
 
 	Manager* mngr = p->getMngr();
-	CraftingSystem* craftingSystem = mngr->getHandler<Player_hdlr>()->getComponent<InventoryController>()->getCraftingSystem();
-
-	int spaceship_crafteable_count = 0;
-
-	if (craftingSystem->isItemCrafteable(SPACESHIP_CABIN) && !mngr->getGame()->cabin) spaceship_crafteable_count++;
-	if (craftingSystem->isItemCrafteable(SPACESHIP_RADAR) && !mngr->getGame()->radar) spaceship_crafteable_count++;
-	if (craftingSystem->isItemCrafteable(SPACESHIP_ROCKETS) && !mngr->getGame()->rockets) spaceship_crafteable_count++;
-
-	int crafted_count = 0;
-
-	if (mngr->getGame()->rockets) crafted_count++;
-	if (mngr->getGame()->cabin) crafted_count++;
-	if (mngr->getGame()->radar) crafted_count++;
-
-	// SHIP ITEM CRAFTED EVENT
-	int currentDay = mngr->getGame()->numDays;
-	auto e = Tracker::Instance()->createShipItemCraftedEvent();
-
-	e->setCraftables(spaceship_crafteable_count)->setCrafted(crafted_count)->setDay(currentDay);
-	Tracker::Instance()->trackEvent(e);
-
 	entity_->getMngr()->ChangeScene(new ShelterScene(scene_->getGame()), SceneManager::SceneMode::OVERRIDE);
+
+
 
 	//Evento
 	
