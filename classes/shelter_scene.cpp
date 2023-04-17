@@ -44,6 +44,28 @@ void ShelterScene::init() {
 	uselessMngr = new Manager(g_);
 	craftSys = new CraftingSystem(mngr_);
 
+	// SHIP ITEM CRAFTED EVENT
+	CraftingSystem* craftingSystem = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->getCraftingSystem();
+	if (craftingSystem == nullptr) cout << "CRAFTING SYSTEM NULLPTR" << endl;
+
+	int spaceship_crafteable_count = 0;
+
+	if (craftingSystem->isItemCrafteable(SPACESHIP_CABIN) && !mngr_->getGame()->cabin) spaceship_crafteable_count++;
+	if (craftingSystem->isItemCrafteable(SPACESHIP_RADAR) && !mngr_->getGame()->radar) spaceship_crafteable_count++;
+	if (craftingSystem->isItemCrafteable(SPACESHIP_ROCKETS) && !mngr_->getGame()->rockets) spaceship_crafteable_count++;
+
+	int crafted_count = 0;
+
+	if (mngr_->getGame()->rockets) crafted_count++;
+	if (mngr_->getGame()->cabin) crafted_count++;
+	if (mngr_->getGame()->radar) crafted_count++;
+
+	int currentDay = mngr_->getGame()->numDays;
+	auto e = Tracker::Instance()->createShipItemCraftedEvent();
+
+	e->setCraftables(spaceship_crafteable_count)->setCrafted(crafted_count)->setDay(currentDay);
+	Tracker::Instance()->trackEvent(e);
+
 	spaceshipStation = new SpaceshipStation(mngr_, uselessMngr, craftSys, this);
 	Entity* spaceshipImg = mngr_->addEntity();
 	spaceshipImg->addComponent<Transform>(Vector2D{ spaceshipStPos.getX(),spaceshipStPos.getY() }, spaceshipStSize.getX(), spaceshipStSize.getY(), spaceshipImgRot);
