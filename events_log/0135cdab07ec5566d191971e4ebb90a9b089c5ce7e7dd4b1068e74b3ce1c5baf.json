@@ -1,0 +1,46 @@
+{
+	"events": [
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 1.0
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 8.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 14.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 17.0,
+  "entity": "player",
+  "x": 895.1161499023438,
+  "y": 895.1161499023438
+},
+{
+  "EventType": "SHIP_ITEM_CRAFTED",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 18.0
+}{
+  "Craftable Ship Items": 0,
+  "Day": 1,
+  "Ship Items Crafted": 0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0135cdab07ec5566d191971e4ebb90a9b089c5ce7e7dd4b1068e74b3ce1c5baf",
+  "TimeSinceStart": 21.0,
+  "entity": "player",
+  "x": 1500.23681640625,
+  "y": 1500.23681640625
+},

@@ -18,6 +18,8 @@ KeyboardPlayerCtrl::KeyboardPlayerCtrl() {
 	walking = false; climbing = false;
 	tr_ = nullptr; rb_ = nullptr; darkArea = nullptr;
 
+	trackerEvent = nullptr;
+
 	speed = 0;
 	left = xClicked = onLadder = onLadderTrigger = right = crouched = up = down = spaceDown = false;
 }

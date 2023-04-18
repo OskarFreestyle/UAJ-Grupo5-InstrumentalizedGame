@@ -1,0 +1,36 @@
+{
+	"events": [
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "aeced7fcc9e076b6cc54ca208fa007b12ff704b4be172eec9f9dd00e735f0bbd",
+  "TimeSinceStart": 1.0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "aeced7fcc9e076b6cc54ca208fa007b12ff704b4be172eec9f9dd00e735f0bbd",
+  "TimeSinceStart": 9.0,
+  "entity": "player",
+  "x": 1894.3299560546875,
+  "y": 1894.3299560546875
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "aeced7fcc9e076b6cc54ca208fa007b12ff704b4be172eec9f9dd00e735f0bbd",
+  "TimeSinceStart": 11.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "aeced7fcc9e076b6cc54ca208fa007b12ff704b4be172eec9f9dd00e735f0bbd",
+  "TimeSinceStart": 12.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "SESSION_ENDED",
+  "SessionId": "aeced7fcc9e076b6cc54ca208fa007b12ff704b4be172eec9f9dd00e735f0bbd",
+  "TimeSinceStart": 15.0
+}
+	]
+}
