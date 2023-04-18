@@ -1,0 +1,87 @@
+{
+	"events": [
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 1.0
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 8.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 9.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "SHIP_ITEM_CRAFTED",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 11.0
+}{
+  "Craftable Ship Items": 0,
+  "Day": 1,
+  "Ship Items Crafted": 0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 14.0,
+  "entity": "player",
+  "x": 1483.4366455078125,
+  "y": 1483.4366455078125
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 17.0,
+  "entity": "player",
+  "x": 1917.841064453125,
+  "y": 1917.841064453125
+},
+{
+  "EventType": "LEAVE_BASE",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 18.0
+}{
+  "Day": 1,
+  "Fatigue": 1,
+  "Sleep Option": 1
+},
+{
+  "EventType": "FOOD_ITEM_CRAFTED",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 18.0
+}{
+  "Can Craft Food Items": false,
+  "Day": 1,
+  "Hunger": 1
+},
+{
+  "EventType": "ACTION_USED",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 18.0
+}{
+  "Actions Used": 1,
+  "Day": 2
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 20.0,
+  "entity": "player",
+  "x": 1941.7410888671875,
+  "y": 1941.7410888671875
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "d7b72c4978cc3670f3de6845c056000f23cb8af6f45b9fe2ff7f1cf7b7b1d0fd",
+  "TimeSinceStart": 21.0
+}{
+  "Day": 2
+},

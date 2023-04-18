@@ -97,8 +97,11 @@ void Game::start() {
 		}
 
 		if (event.type == SDL_QUIT) {
-			exit = true;
-			continue;
+				exit = true;
+				while (!states->empty())
+					states->popState();
+
+				continue;
 		}
 
 		//FPS

@@ -12,6 +12,9 @@
 #include "../components/parallax_component.h"
 #include "../components/initial_camera_zoom.h"
 #include "../components/camera_movement.h"
+#include "../components/hunger_component.h"
+#include "Tracker.h"
+
 void RaidScene::init() {
 	loadMap(path_);
 
@@ -36,6 +39,28 @@ void RaidScene::init() {
 		});
 
 	createTransition();
+
+	int currentDay = mngr_->getGame()->numDays;
+	auto e = Tracker::Instance()->createRaidSelectedEvent();
+
+	int hungerLevel = 0;
+
+	std::list<int> itemsIndexInEnum;
+
+	if (currentDay > 1) {
+		// RAID SELECT EVENT
+		HungerComponent* hunger = mngr_->getHandler<Player_hdlr>()->getComponent<HungerComponent>();
+		hungerLevel = (int)hunger->getHungerLevel();
+		Inventory* playerInventory = mngr_->getHandler<Player_hdlr>()->getComponent<InventoryController>()->inventory;
+		std::list<Item*>& items = playerInventory->getItems();
+
+		for (auto it = items.begin(); it != items.end(); it++) {
+			itemsIndexInEnum.push_back((int)(*it)->getItemInfo()->name());
+		}
+	}
+
+	e->setDay(currentDay)->setHunger(hungerLevel)->setItems(itemsIndexInEnum)->setLocation((int)mngr_->getGame()->currentScene);
+	Tracker::Instance()->trackEvent(e);
 }
 
 void RaidScene::update() {
@@ -63,4 +88,9 @@ void RaidScene::createParallaxBackground(int numOfRep) {
 	createParallaxLayer(0.5, &sdlutils().images().at("houses1"), numOfRep);
 	createParallaxLayer(0.6, &sdlutils().images().at("wall"), numOfRep);
 	createParallaxLayer(0.7, &sdlutils().images().at("road"), numOfRep);
+}
+
+RaidScene::RaidScene(string path, string name, Game* game): GameScene(game, name)
+{
+	path_ = path;
 }

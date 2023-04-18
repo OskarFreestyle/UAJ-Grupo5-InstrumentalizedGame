@@ -17,7 +17,7 @@ private:
 	bool raidTimeEnded;
 	void createParallaxBackground(int numOfRep) override;
 public:
-	RaidScene(string path, string name, Game* game) : GameScene(game, name) { path_ = path;}
+	RaidScene(string path, string name, Game* game);
 	~RaidScene() { delete timer; }
 	void init() override;
 	void update() override;

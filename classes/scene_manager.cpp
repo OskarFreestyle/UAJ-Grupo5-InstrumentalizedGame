@@ -31,6 +31,8 @@ void SceneManager::LoadScene() {
 			Camera::mainCamera->Move(pos);
 		}
 
+		if (newScene == nullptr) return;
+
 		states->pushState(newScene);
 		newScene->init();
 	}

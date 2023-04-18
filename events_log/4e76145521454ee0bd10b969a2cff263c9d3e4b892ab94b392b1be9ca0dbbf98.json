@@ -1,0 +1,80 @@
+{
+	"events": [
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 1.0
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 8.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 9.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 12.0,
+  "entity": "player",
+  "x": 768.0,
+  "y": 768.0
+},
+{
+  "EventType": "SHIP_ITEM_CRAFTED",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 13.0
+}{
+  "Craftable Ship Items": 0,
+  "Day": 1,
+  "Ship Items Crafted": 0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 16.0,
+  "entity": "player",
+  "x": 1483.4366455078125,
+  "y": 1483.4366455078125
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 19.0,
+  "entity": "player",
+  "x": 1917.841064453125,
+  "y": 1917.841064453125
+},
+{
+  "EventType": "LEAVE_BASE",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 20.0
+}{
+  "Day": 1,
+  "Fatigue": 1,
+  "Sleep Option": 2
+},
+{
+  "EventType": "FOOD_ITEM_CRAFTED",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 20.0
+}{
+  "Can Craft Food Items": false,
+  "Day": 1,
+  "Hunger": 1
+},
+{
+  "EventType": "ACTION_USED",
+  "SessionId": "4e76145521454ee0bd10b969a2cff263c9d3e4b892ab94b392b1be9ca0dbbf98",
+  "TimeSinceStart": 20.0
+}{
+  "Actions Used": 2,
+  "Day": 2
+},

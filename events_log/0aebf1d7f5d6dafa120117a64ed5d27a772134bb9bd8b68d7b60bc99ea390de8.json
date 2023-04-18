@@ -1,0 +1,174 @@
+{
+	"events": [
+{
+  "EventType": "SESSION_STARTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 1.0
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 8.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 9.0
+}{
+  "Day": 1
+},
+{
+  "EventType": "SHIP_ITEM_CRAFTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 11.0
+}{
+  "Craftable Ship Items": 0,
+  "Day": 1,
+  "Ship Items Crafted": 0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 14.0,
+  "entity": "player",
+  "x": 1421.0360107421875,
+  "y": 1421.0360107421875
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 17.0,
+  "entity": "player",
+  "x": 1855.4404296875,
+  "y": 1855.4404296875
+},
+{
+  "EventType": "LEAVE_BASE",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 18.0
+}{
+  "Day": 1,
+  "Fatigue": 1,
+  "Sleep Option": 2
+},
+{
+  "EventType": "FOOD_ITEM_CRAFTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 18.0
+}{
+  "Can Craft Food Items": false,
+  "Day": 1,
+  "Hunger": 1
+},
+{
+  "EventType": "ACTION_USED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 18.0
+}{
+  "Actions Used": 2,
+  "Day": 2
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 20.0,
+  "entity": "player",
+  "x": 1895.0406494140625,
+  "y": 1895.0406494140625
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 21.0
+}{
+  "Day": 2
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 22.0
+}{
+  "Day": 2
+},
+{
+  "EventType": "SHIP_ITEM_CRAFTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 24.0
+}{
+  "Craftable Ship Items": 0,
+  "Day": 2,
+  "Ship Items Crafted": 0
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 27.0,
+  "entity": "player",
+  "x": 1483.4366455078125,
+  "y": 1483.4366455078125
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 30.0,
+  "entity": "player",
+  "x": 1895.3406982421875,
+  "y": 1895.3406982421875
+},
+{
+  "EventType": "LEAVE_BASE",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 31.0
+}{
+  "Day": 2,
+  "Fatigue": 1,
+  "Sleep Option": 2
+},
+{
+  "EventType": "FOOD_ITEM_CRAFTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 31.0
+}{
+  "Can Craft Food Items": false,
+  "Day": 2,
+  "Hunger": 2
+},
+{
+  "EventType": "ACTION_USED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 31.0
+}{
+  "Actions Used": 2,
+  "Day": 3
+},
+{
+  "EventType": "POSITION",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 33.0,
+  "entity": "player",
+  "x": 1895.3406982421875,
+  "y": 1895.3406982421875
+},
+{
+  "EventType": "ENTER_RAID_MENU",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 34.0
+}{
+  "Day": 3
+},
+{
+  "EventType": "RAID_SELECTED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 35.0
+}{
+  "Day": 3
+},
+{
+  "EventType": "SESSION_ENDED",
+  "SessionId": "0aebf1d7f5d6dafa120117a64ed5d27a772134bb9bd8b68d7b60bc99ea390de8",
+  "TimeSinceStart": 38.0
+}
+	]
+}
