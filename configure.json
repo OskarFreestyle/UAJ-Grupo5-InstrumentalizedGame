@@ -1,7 +1,6 @@
 {
   "serializer": "json", 
   "maxElementsInQueue": 10, 
-  "dumpTime": 10,
   "defaultRecurringInterval": 3,
 
   "data": [
@@ -18,7 +17,7 @@
     },
 
     {
-      "name": "LEAVE_BASE",
+      "name": "RETURNED_TO_BASE",
       "active": true,
       "index": 2
     },
