@@ -1,5 +1,5 @@
 {
-  "serializer": "json", 
+  "serializers": ["json", "csv"], 
   "maxElementsInQueue": 10, 
   "defaultRecurringInterval": 3,
 
@@ -57,7 +57,7 @@
       "active": true,
       "index": 8
     },
-    
+
     {
       "name": "POSITION",
       "active": true,

@@ -72,8 +72,6 @@ void Game::init() {
 	Tracker::Instance()->trackEvent(e);
 
 
-	//sdlutils().toggleFullScreen();
-	
 	cursor = &sdlutils().images().at("cursor");
 	cursorCenter = Vector2D(0.5, 0.5);
 
@@ -118,7 +116,10 @@ void Game::start() {
 		renderCursor();
 		sdlutils().presentRenderer();
 
+
+		// TRACKER UPDATE
 		Tracker::Update(consts::DELTA_TIME);
+		
 
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;
 
