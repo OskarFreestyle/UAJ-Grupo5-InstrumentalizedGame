@@ -142,6 +142,12 @@ void LocationsScene::update() {
 					if (!mouseOverInfo[i]) {
 						mouseOverInfo[i] = true;
 
+						// Evento de visualizar una raid
+						auto e = Tracker::Instance()->createRaidVisualizedEvent();
+
+						e->setLocation(i);
+						Tracker::Instance()->trackEvent(e);
+
 						//Foco
 						setFocus(buttonPositions[i]->getPos());
 						setTravelLine(buttonPositions[i]);
